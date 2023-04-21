@@ -1,0 +1,4 @@
+# One line method for automorphic number in python
+n = 376
+# n^2 = 141376 141376[-3::] = 376
+print("YES" if int(str(n**2)[-len(str(n))::]) == n else "No")
